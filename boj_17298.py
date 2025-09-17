@@ -8,7 +8,5 @@ for i in range(n):
   mStack.append(i)
 while mStack:
   ans[mStack.pop()]=-1
-res=""
-for i in ans:
-  res+=str(i)+" "
-print(res)
+for i in range(n):
+  print(ans[i],end=' ')
