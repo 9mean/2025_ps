@@ -2,6 +2,7 @@ from queue import PriorityQueue
 import sys
 input=sys.stdin.readline
 sys.setrecursionlimit(10**6)
+
 def find(x):
     if parent[x]==x:
         return x
